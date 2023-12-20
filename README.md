@@ -13,3 +13,4 @@ Todo list made to learn and demonstrate CRUD
 - CSS
 - javaScript
 
+<img src="Untitled video - Made with Clipchamp (1).gif">
