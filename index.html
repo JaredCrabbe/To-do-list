@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div class="container row">
+        <h1>To-Do List</h1>
+        <div class="todo_input">
+            <input type="text" name="add-todo" id="add-todo" onkeydown="if (event.keyCode == 13)
+            document.getElementById('add-btn').click()">
+            <input type="button" value="add" id="add-btn" onclick="createTodo(),clr()">
+        </div>
+        <div class="todo-items">
+            <ul id="todo--items"></ul>
+
+        </div>
+        <div class="container2 row2">
+            <input type="button" id="rmv-btn" value="Clear done" onclick="clearCompleteTodos()">
+            <input type="button" id="rmv-btn" value="Clear All" onclick="clearAllTodos()">
+        </div>
+        <div class="container row">
+            <!-- <input type="button" value="Save" id="rmv-btn" onclick="saveList()"> -->
+        </div>
+    </div>
+
+</body>
+
+</html>
